@@ -1,0 +1,7 @@
+:root {
+    --blugray: rgb(168, 183, 196);
+}
+
+body {
+    background-color: var(--blugray);
+}
