@@ -7,7 +7,7 @@
   --hl-text: rgb(243, 251, 1);
   --hl-text: rgb(1, 251, 205);
 
-  /* Family 1 */
+  /* Updated color family */
   --nav-dark: #221D1B;
   --bg-dark: #524442;
   --bg-med: #DB95B4;
@@ -261,7 +261,6 @@ p a:hover {
   border-color: var(--bg-dark)
 }
 
-
 .card-body .card-btn {
   margin-bottom: 6px;
 }
@@ -344,15 +343,29 @@ p a:hover {
 
 /* Mobile */
 @media(max-width: 768px) {
+  .container.bio-grid {
+    margin: 0px;
+    padding: 0px;
+  }
+
   .bio-grid {
     display:block;
-    padding: 20px 0px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .bio-grid,
+  .intro {
+    margin-left: 0px;
+    padding-left: 10px;
+    margin-right: 0px;
+    padding-right: 10px
   }
 
   .bio-pic {
     margin: 0px;
     padding: 0px;
-    text-align: center;
+    text-align: center;   
   }
 
   .image-description {
