@@ -3,12 +3,9 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <title>Nick's Portfolio</title>
+    <title>Nick | Welcome</title>
 
     <!-- Bootstrap CSS -->
-    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"  integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
-
-    <!-- CSS only -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -19,82 +16,134 @@
     <link rel="stylesheet" href="styles/style.css" />
   </head>
   <body>
-    <!-- <nav class="navbar navbar-dark bg-dark ">
-      <div class="container-fluid container">
-        <span class="navbar-text">
-          Nick's Portfolio
-        </span>
-      </div>
-    </nav> -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-      <div class="container-fluid container">
-        <a class="navbar-brand" href="index.html">Nick's Portfolio</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                href="#"
-                id="navbarDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
-              >
-                Navigate
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="index.html">Bio</a></li>
-                <li>
-                  <a class="dropdown-item" href="projects.html">Projects</a>
-                </li>
-                <li><hr class="dropdown-divider" /></li>
-                <li><a class="dropdown-item" href="#">Projects</a></li>
-              </ul>
+    <div class="landing-grid">
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid container">
+          <a class="navbar-brand" href="index.html">Nick's Portfolio</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Navigate
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="index.html">Bio</a></li>
+                  <li>
+                    <a class="dropdown-item" href="projects.html">Projects</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Bio -->
+      <div class="container bio-grid">
+        <div class="bio-pic">
+          <img
+            src="./images/joshua_tree-header.jpg"
+            class="img-fluid img-top"
+            alt="nick at joshua tree national park"
+          />
+          <p class="image-description">
+            Hiking at
+            <a class="link" href="https://www.nps.gov/jotr/index.htm"
+              >Joshua Tree National Park</a
+            >
+          </p>
+        </div>
+
+        <div class="intro">
+          <h1 class="intro-header">Hello!</h1>
+
+          <p>
+            Hello, and welcome to my portfolio page. My name is Nick and I am a
+            customer-focused developer with 12 years of implementation,
+            regulatory compliance, and product management experience in the
+            healthcare informatics space. In early 2022, after many years of
+            working closely with engineering teams developing and enhancing
+            Electronic Health Record systems at AZZLY, GE, and most recently
+            athenahealth, I decided to make the transition to full-time software
+            developer. A little more about me:
+          </p>
+          <ul>
+            <li>Collaborative problem solver.</li>
+            <li>
+              Interested in developing end-to-end solutions that create real
+              customer value.
+            </li>
+            <li>
+              Over a decade of experience in the healthcare informatics space
+              and excited to take these lessons-learned into other industries.
+            </li>
+            <li>
+              I am constantly working on new projects, which I will post to 
+              <a href="projects.html" class="link"> my project page</a>.
+            </li>
+            <li>
+              Projects will also be posted under the username
+              <a href="https://github.com/nitnub" class="link">nitnub</a>
+              on GitHub.
             </li>
           </ul>
+          <p>
+            To get in touch about new projects or professional opportunities,
+            please feel free to contact me via
+            <a
+              href="https://linkedin.com/in/nick-bryant-6b1a9579"
+              class="link"
+              >LinkedIn</a
+            >!
+          </p>
         </div>
       </div>
-    </nav>
+        
+      <div class="chevron-left light"></div>
+      <div class="chevron-right light"></div>
 
-    <!-- Intro Video -->
+      <!-- Video introduction -->
+      <div class="video-grid ">
+        <div class="container">
+          <h2 id="video-header">An introduction of sorts...</h2>
 
-    <!-- Bio -->
-    <div class="container bio-grid">
-      <img
-        src="./images/joshua_tree-tall.jpg"
-        class="img-fluid img-top"
-        alt="nick at joshua tree national park"
-      />
-      <div class="intro">
-        <h1 class="intro-header">Hello!</h1>
+            <iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/IPSaG9RRc-k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-        <p>
-          Hello, and welcome to my portfolio page. My name is Nick and I am a customer-focused professional with 12 years of implementation and product management experience in the healthcare informatics space.
-          In early 2022, after many years of working closely with engineering teams developing and enhancing Electronic Health Record systems at AZZLY, GE, and most recently Athenahealth, I decided to make the transition to full-time software developer. A little more about me:
-        </p>
-        <ul>
-          <li>Customer-focused professional with 12 years of implementation and product management experience in the healthcare informatics space.</li>
-          <li>Collaborative problem solver.</li>
-          <li>Interested in developing end-to-end solutions utilizing the MERN stack (MongoDB, Express, React, Node).</li>
-          <li>I am constantly working on new projects, which I will post to my <a href="projects.html">project page</a>.</li>
+            Unable to load video.
           
-        </ul>
-        <p>To get in touch about new projects or opportunities, please feel free to contact me via <a href="www.linkedin.com/in/nick-bryant-6b1a9579">LinkedIn</a>!</p>
-        <!-- <i class="bi bi-github">aa</i> -->
-        <!-- <img class="contact-link"src="./icons/github.svg"> -->
+          <p class="video-description">An intro to algorithms. Personal introduction to be added in the coming weeks. </p>
+        </div>
       </div>
-      <div class="contact-links">
+
+      <!-- Navigation section -->
+      <div class="nav-grid">
+        <div class="project-nav bio"><a href="./projects.html">Go to Projects</a></div>
+      </div>
+      <div class="chevron-left dark"></div>
+      <div class="chevron-right dark"></div>
+      
+      <!-- Footer -->
+      <div class="footer contact-links">
+        <div class="footer text">Contact:</div>
         <a href="https://github.com/nitnub" title="Visit my Github"
           ><svg class="contact-link bi bi-github" viewBox="0 0 16 16">
             <path
@@ -102,7 +151,10 @@
             ></path>
           </svg>
         </a>
-        <a href="www.linkedin.com/in/nick-bryant-6b1a9579" title="Visit me on LinkedIn">
+        <a
+          href="https://linkedin.com/in/nick-bryant-6b1a9579"
+          title="Visit me on LinkedIn"
+        >
           <svg class="contact-link bi bi-linkedin" viewBox="0 0 16 16">
             <path
               d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"
@@ -110,65 +162,8 @@
           </svg>
         </a>
       </div>
-    </div>
-    <div class="intro"></div>
-
-    <!-- Projects -->
-    <div class="projects">
-      <div class="project-grid container">
-        <div class="card project-card">
-          <img src="images/seattle-bus.bmp" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Real Time Bus Tracking</h5>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Temporibus, corrupti consectetur. Unde explicabo aliquam at.
-            </p>
-            <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-          </div>
-        </div>
-
-        <div class="card project-card">
-          <img src="images/pacman.bmp" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">PacMen Exercise</h5>
-            <p class="card-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Excepturi ducimus perspiciatis iure. Ab, velit fugiat.
-            </p>
-            <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-          </div>
-        </div>
-
-        <div class="card project-card">
-          <img src="images/eyes.bmp" class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Eye Exercise</h5>
-            <p class="card-text">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque
-              dolor iste ducimus consequuntur sint modi.
-            </p>
-            <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-          </div>
-        </div>
-
-        <div class="card project-card">
-          <img src="..." class="card-img-top" alt="..." />
-          <div class="card-body">
-            <h5 class="card-title">Card title</h5>
-            <p class="card-text">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum
-              minus voluptas, delectus vero quisquam aspernatur?
-            </p>
-            <a href="#" class="btn btn-outline-dark">Go somewhere</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- Bootstrap JS -->
-    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script> -->
-
-    <!-- JavaScript Bundle with Popper -->
+   
+    <!-- Bootstrap JS Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
