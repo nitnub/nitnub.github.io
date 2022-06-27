@@ -4,8 +4,8 @@
   --lt-brown: rgb(235, 234, 234);
   --dk-text: rgb(48, 48, 48);
   --hl-text: rgb(1, 251, 180);
-  --hl-text: rgb(243, 251, 1);
-  --hl-text: rgb(1, 251, 205);
+  /* --hl-text: rgb(243, 251, 1);
+  --hl-text: rgb(1, 251, 205); */
 
   /* Updated color family */
   --nav-dark: #221D1B;
@@ -76,6 +76,10 @@ p a:hover {
 
 .dropdown-item {
   color: var(--bg-dark);
+}
+
+.container.bio-grid {
+  padding-bottom: 75px;
 }
 
 .bio-grid {
@@ -344,7 +348,7 @@ p a:hover {
 /* Mobile */
 @media(max-width: 768px) {
   .container.bio-grid {
-    margin: 0px;
+    margin: 0 0 75px 0;
     padding: 0px;
   }
 
